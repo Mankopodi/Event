@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "singularName": "author",
+    "pluralName": "authors",
+    "displayName": "Author"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "authorID": {
+      "type": "integer"
+    },
+    "First_Name": {
+      "type": "string"
+    },
+    "Last_Name": {
+      "type": "string"
+    }
+  }
+}

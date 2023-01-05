@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "book_genres",
+  "info": {
+    "singularName": "book-genre",
+    "pluralName": "book-genres",
+    "displayName": "BookGenre"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "boodID": {
+      "type": "integer"
+    },
+    "genreID": {
+      "type": "integer"
+    }
+  }
+}

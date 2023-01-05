@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publishers",
+  "info": {
+    "singularName": "publisher",
+    "pluralName": "publishers",
+    "displayName": "Publisher"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "publisherID": {
+      "type": "integer"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}
