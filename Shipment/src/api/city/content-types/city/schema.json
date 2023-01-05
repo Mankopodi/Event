@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cities",
+  "info": {
+    "singularName": "city",
+    "pluralName": "cities",
+    "displayName": "City"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cityID": {
+      "type": "integer"
+    },
+    "CityName": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Area": {
+      "type": "string"
+    }
+  }
+}
